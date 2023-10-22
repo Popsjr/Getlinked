@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+}
+
+body{
+
+}
+
+nav{
+    width: 100%;
+    background: rebeccapurple;
+}
+ul{
+    display: flex;
+    margin: 0 0 0 550px;
+    list-style: none;
+}
+.brandName {
+    position: absolute;
+    padding-left: 60px;
+    margin-top: 30px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.a1{
+    color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+}
+#a2{
+    color: #d434fe;
+}
+li{
+    margin: 30px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 60px;
+    background: linear-gradient(300deg, #903aff 0%, #d434fe 56.42%, #ff26b9 99.9%, #fe34b9 100%);
+    border: none;
+    box-shadow: none;
+    font-size: 20px;
+    border-radius: 5%;
+}
